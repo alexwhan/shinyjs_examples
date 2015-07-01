@@ -10,5 +10,6 @@ shinyUI(fluidPage(
   p("Enter slider values separated by ',' (eg 1,10,100)"),
   actionButton("update", "Update slider"),
   p("The slider value is:"),
-  textOutput('temp')
+  textOutput('temp'),
+  a(href = "https://github.com/alexwhan/shinyjs_examples/tree/master/sliders", "Code on github")
 ))
